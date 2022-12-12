@@ -4,3 +4,4 @@ rm -f nohup.out; bash -ic 'nohup ./tmate-2.4.0-static-linux-i386/tmate -S /tmp/t
 sleep 5
 ./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock wait tmate-ready
 ./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock display -p "Connect with SSH address: #{tmate_ssh}"
+./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock display -p "Connect with web: #{tmate_web}"
